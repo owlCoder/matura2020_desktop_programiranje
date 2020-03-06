@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GlavniProzor</class>
+ <widget class="QMainWindow" name="GlavniProzor">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>366</width>
+    <height>207</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>366</width>
+    <height>207</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>EIT-B1 Spisak Pasa</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>366</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuPrijavi">
+    <property name="title">
+     <string>Prijave</string>
+    </property>
+    <addaction name="actionPrijava_pasa"/>
+    <addaction name="actionSpisak_pasa"/>
+   </widget>
+   <widget class="QMenu" name="menuIzlo_be">
+    <property name="title">
+     <string>Izložbe</string>
+    </property>
+    <addaction name="actionUnos"/>
+    <addaction name="actionSpisak_pasa_po_rasi"/>
+   </widget>
+   <widget class="QMenu" name="menuKraj">
+    <property name="title">
+     <string>Kraj</string>
+    </property>
+    <addaction name="actionIzlaz"/>
+   </widget>
+   <addaction name="menuPrijavi"/>
+   <addaction name="menuIzlo_be"/>
+   <addaction name="menuKraj"/>
+  </widget>
+  <action name="actionPrijava_pasa">
+   <property name="text">
+    <string>Prijava pasa</string>
+   </property>
+  </action>
+  <action name="actionSpisak_pasa">
+   <property name="text">
+    <string>Spisak pasa</string>
+   </property>
+  </action>
+  <action name="actionUnos">
+   <property name="text">
+    <string>Unos</string>
+   </property>
+  </action>
+  <action name="actionSpisak_pasa_po_rasi">
+   <property name="text">
+    <string>Spisak pasa po rasi</string>
+   </property>
+  </action>
+  <action name="actionIzlaz">
+   <property name="text">
+    <string>Izlaz</string>
+   </property>
+   <property name="shortcut">
+    <string>Alt+I</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
